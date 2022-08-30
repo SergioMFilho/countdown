@@ -1,0 +1,46 @@
+/* :root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+      --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+  } */
+
+  * {
+    margin: 0;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .titulo {
+    margin-top: 30px;
+    color: #6C63FF;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+  }
+
+  .col1 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  .col1 ul li {
+    flex-direction: row;
+    color: #C8C8C8;
+    font-size: 22px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 10px;
+  }
+  /* .imagem {
+    display: flex;
+  } */
