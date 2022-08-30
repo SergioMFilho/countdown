@@ -1,5 +1,5 @@
 
-let countDownDate = new Date("Aug 29, 2023 22:34:24").getTime();
+let countDownDate = new Date("Aug 30, 2023 09:10:00").getTime();
 console.log(countDownDate)
 
 let x = setInterval(function() {
